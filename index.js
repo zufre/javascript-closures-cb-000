@@ -1,4 +1,5 @@
 const app = "I don't do much."
+
 function fatBastard(meal) {
   function whatsForDinner() { // whatsForDinner() is an inner function, a closure
     if (!meal) { // whatsForDinner() uses argument provided to the parent function
